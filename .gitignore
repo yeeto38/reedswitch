@@ -1,2 +1,5 @@
 .pio
 .vscode
+src/CMakeLists.txt
+CMakeLists.txt
+sdkconfig.seeed_xiao_esp32c3
