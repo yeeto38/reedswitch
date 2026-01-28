@@ -4,3 +4,5 @@ src/CMakeLists.txt
 CMakeLists.txt
 sdkconfig.seeed_xiao_esp32c3
 sdkconfig.esp32-c3-devkitm-1
+sdkconfig.esp32-c3-devkitm-1.old
+sdkconfig.seeed_xiao_esp32c3.old
