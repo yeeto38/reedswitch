@@ -1,5 +1,5 @@
-# ENV=seeed_xiao_esp32c3
-ENV=esp32-c3-devkitm-1
+ENV=seeed_xiao_esp32c3
+# ENV=esp32-c3-devkitm-1
 
 build:
 	pio run -e $(ENV)
