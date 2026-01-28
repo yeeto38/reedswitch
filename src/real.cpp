@@ -32,7 +32,7 @@ extern "C" void app_main() { // apparentally we only recognize app_main if its i
   // esp_deep_sleep_pd_config(ESP_PD_DOMAIN_RTC_PERIPH, ESP_PD_OPTION_ON); // genuinely cannot get this to work. help on bootcount ig
 
   ESP_LOGI(RTAG, "Good Night...");
-  ESP_LOGI(RTAG, "GPIO0 level: %d", gpio_get_level(REEDPIN));
-  fflush(stdout);
+  ESP_LOGI(RTAG, "GPIO0 level: %d", gpio_get_level(REEDPIN)); // prints status of reedpin (should be 1)
+  fflush(stdout); // flush all prints so they print before deep sleep
   esp_deep_sleep_start();
 }
